@@ -189,3 +189,50 @@ The degree to which a named field appears with the same decoded data type across
 ### Missing-field count
 
 A count of valid object records that do not contain a particular field. It differs from a field whose value is explicitly null: the field is present in the latter case. Missingness can affect analysis and should be understood before summaries or visualizations are interpreted.
+
+
+<!-- publication:2026-10-13 -->
+
+## 2026-10-13
+
+Source note: [2026-10-13](articles/2026-10-13-clusters-are-evidence-not-answers.md).
+
+### Clustering
+
+An unsupervised learning approach that assigns observations to groups according to a chosen representation and similarity rule. The resulting groups depend on decisions such as feature selection, scaling, distance, algorithm, and cluster count, so they are not automatically intrinsic or scientifically verified categories.
+
+### Feature scaling
+
+A transformation that changes the numerical scale of a feature, often by centering it and dividing by its standard deviation. Scaling can prevent large-unit measurements from dominating distance calculations, but it also changes the relative influence of features and should reflect the analysis goal.
+
+### Euclidean distance
+
+The straight-line distance between observations represented as numeric vectors. It combines squared differences across features, making it sensitive to feature units and scale. It is common in methods such as K-means, but its appropriateness depends on the measurement context.
+
+### Linkage
+
+A rule for defining the distance between two groups during hierarchical clustering. Single, complete, and average linkage use different summaries of pairwise distances, so the same observations can produce different trees under different linkage choices.
+
+### K-means
+
+A partitioning algorithm that assigns observations to a specified number of groups and seeks to minimize the sum of squared distances from points to their assigned group means. Its result can depend on initial assignments, the chosen value of K, feature scaling, and outliers.
+
+### Local optimum
+
+A solution that cannot be improved by the algorithm's local updates, even though a better solution may exist elsewhere in the search space. K-means can converge to different local optima from different initial assignments, which motivates running multiple starts.
+
+### Principal components analysis (PCA)
+
+A method that constructs orthogonal directions capturing successive amounts of variation in numeric data. Its directions depend on the variables' scales unless the variables are standardized. A plot using only a few components is a projection and may omit structure in remaining dimensions.
+
+### Robustness check
+
+An analysis that examines whether a pattern persists under reasonable changes, such as alternative scaling, linkage, initialization, or data subsets. Stability increases confidence that a finding is not tied to one narrow setup, but does not by itself prove that the pattern is meaningful.
+
+### Independent validation
+
+Assessment of a hypothesis or proposed pattern using data not used to develop it. Independent evidence helps distinguish a promising exploratory observation from a result that depends on the original sample or analysis choices.
+
+### SHA-256
+
+A cryptographic hash function that maps input bytes to a fixed-length digest. A file inventory can use the digest to compare content across copies or runs. A digest does not identify authorship, certify safety, or establish the correctness of a file's contents.
