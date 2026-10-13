@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-13",
+  "article": "articles/2026-10-13-clusters-are-evidence-not-answers.md",
+  "terms": [
+    {
+      "term": "Clustering",
+      "definition": "An unsupervised learning approach that assigns observations to groups according to a chosen representation and similarity rule. The resulting groups depend on decisions such as feature selection, scaling, distance, algorithm, and cluster count, so they are not automatically intrinsic or scientifically verified categories."
+    },
+    {
+      "term": "Feature scaling",
+      "definition": "A transformation that changes the numerical scale of a feature, often by centering it and dividing by its standard deviation. Scaling can prevent large-unit measurements from dominating distance calculations, but it also changes the relative influence of features and should reflect the analysis goal."
+    },
+    {
+      "term": "Euclidean distance",
+      "definition": "The straight-line distance between observations represented as numeric vectors. It combines squared differences across features, making it sensitive to feature units and scale. It is common in methods such as K-means, but its appropriateness depends on the measurement context."
+    },
+    {
+      "term": "Linkage",
+      "definition": "A rule for defining the distance between two groups during hierarchical clustering. Single, complete, and average linkage use different summaries of pairwise distances, so the same observations can produce different trees under different linkage choices."
+    },
+    {
+      "term": "K-means",
+      "definition": "A partitioning algorithm that assigns observations to a specified number of groups and seeks to minimize the sum of squared distances from points to their assigned group means. Its result can depend on initial assignments, the chosen value of K, feature scaling, and outliers."
+    },
+    {
+      "term": "Local optimum",
+      "definition": "A solution that cannot be improved by the algorithm's local updates, even though a better solution may exist elsewhere in the search space. K-means can converge to different local optima from different initial assignments, which motivates running multiple starts."
+    },
+    {
+      "term": "Principal components analysis (PCA)",
+      "definition": "A method that constructs orthogonal directions capturing successive amounts of variation in numeric data. Its directions depend on the variables' scales unless the variables are standardized. A plot using only a few components is a projection and may omit structure in remaining dimensions."
+    },
+    {
+      "term": "Robustness check",
+      "definition": "An analysis that examines whether a pattern persists under reasonable changes, such as alternative scaling, linkage, initialization, or data subsets. Stability increases confidence that a finding is not tied to one narrow setup, but does not by itself prove that the pattern is meaningful."
+    },
+    {
+      "term": "Independent validation",
+      "definition": "Assessment of a hypothesis or proposed pattern using data not used to develop it. Independent evidence helps distinguish a promising exploratory observation from a result that depends on the original sample or analysis choices."
+    },
+    {
+      "term": "SHA-256",
+      "definition": "A cryptographic hash function that maps input bytes to a fixed-length digest. A file inventory can use the digest to compare content across copies or runs. A digest does not identify authorship, certify safety, or establish the correctness of a file's contents."
+    }
+  ]
+}
