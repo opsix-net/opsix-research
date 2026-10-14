@@ -236,3 +236,50 @@ Assessment of a hypothesis or proposed pattern using data not used to develop it
 ### SHA-256
 
 A cryptographic hash function that maps input bytes to a fixed-length digest. A file inventory can use the digest to compare content across copies or runs. A digest does not identify authorship, certify safety, or establish the correctness of a file's contents.
+
+
+<!-- publication:2026-10-14 -->
+
+## 2026-10-14
+
+Source note: [2026-10-14](articles/2026-10-14-responsibilities-to-reliable-tools.md).
+
+### CRC cards
+
+A lightweight design aid in which each card represents a component and records its responsibilities and collaborators. The technique encourages designers to assign actions to suitable actors before implementation, while keeping component duties and dependencies small enough to reason about.
+
+### Responsibility
+
+A defined piece of work or obligation assigned to a component. Clear responsibilities help readers locate behavior, identify suitable tests, and notice when one component has accumulated unrelated duties.
+
+### Collaborator
+
+Another component that a component interacts with to carry out its responsibilities. Naming collaborators makes dependencies visible and can reveal unnecessary coupling or unclear ownership.
+
+### Action/actor cycle
+
+A design process that starts by identifying an action, then selects the component best suited to perform it. Repeating this process assigns required work to components and exposes responsibilities that lack a clear owner.
+
+### UML
+
+Unified Modeling Language, a standard visual notation used to express software designs, including object-oriented structures. UML diagrams can help communicate organization, but they do not by themselves specify every runtime behavior or validate an implementation.
+
+### Pseudocode
+
+A language-independent description of an algorithm's steps. It can make ordering, branching, and policies visible before implementation details such as syntax or library choices are introduced.
+
+### Named constant
+
+A meaningful identifier associated with a fixed value, used instead of repeatedly embedding an unexplained literal. Named constants can make code easier to understand and change, provided their names accurately describe the values.
+
+### Severity label
+
+A log token that communicates an event's category or urgency, such as `INFO`, `WARN`, or `ERROR`. A counter recognizes only labels defined by its rules, so the resulting totals depend on the application's logging format.
+
+### Regular expression
+
+A compact pattern language for describing text to search for. Its syntax and matching behavior depend on the implementation and options in use; an expression that matches a line does not necessarily identify a unique event or explain its cause.
+
+### Descriptive summary
+
+A compact account of observed data, such as a count of lines or labels. It describes what the chosen procedure found in the supplied input, but alone does not establish causation, statistical significance, or completeness.
