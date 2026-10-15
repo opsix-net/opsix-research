@@ -283,3 +283,46 @@ A compact pattern language for describing text to search for. Its syntax and mat
 ### Descriptive summary
 
 A compact account of observed data, such as a count of lines or labels. It describes what the chosen procedure found in the supplied input, but alone does not establish causation, statistical significance, or completeness.
+
+
+<!-- publication:2026-10-15 -->
+
+## 2026-10-15
+
+Source note: [2026-10-15](articles/2026-10-15-from-spring-physics-to-reliable-simulation.md).
+
+### Ordinary differential equation
+
+An equation relating an unknown function of one independent variable to its derivatives. In the spring model, the stretch depends on time, and its first and second time derivatives describe velocity and acceleration.
+
+### State variable
+
+A quantity that represents the system at a given time and is advanced by a computational model. The spring stretch and its velocity together determine the next state in a time-stepping simulation.
+
+### Damping
+
+A force or effect that removes energy from motion. In the passage's model, damping is proportional to the stretch velocity and opposes the motion under the specified sign convention.
+
+### Finite difference
+
+A numerical approximation to a derivative formed from function values at discrete points. Finite-difference formulas let a program approximate continuous motion by advancing values on a time grid.
+
+### Time step
+
+The interval between successive simulation times, commonly written as $\Delta t$. Smaller steps provide more frequent computed values, but require more work and do not by themselves guarantee accuracy or stability.
+
+### Explicit Euler method
+
+A time-stepping method that advances a state using derivative information evaluated at the current time. It is simple to implement and useful for demonstrations, but can be inaccurate or unstable for unsuitable step sizes or systems.
+
+### JSON object
+
+A JSON value consisting of named fields and associated values, represented with braces. The audited utility counts only successfully parsed objects as valid records; other JSON values are reported as non-object lines.
+
+### Type consistency
+
+A property of a data field whose values follow an expected type convention across records. jsonl-audit reports observed type counts, but does not decide which types are acceptable or enforce a schema.
+
+### Descriptive diagnostic
+
+A summary of observed data properties, such as counts or categories, that does not establish cause, significance, or correctness against an external standard. Audit output should guide further validation rather than substitute for it.
