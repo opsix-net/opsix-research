@@ -326,3 +326,42 @@ A property of a data field whose values follow an expected type convention acros
 ### Descriptive diagnostic
 
 A summary of observed data properties, such as counts or categories, that does not establish cause, significance, or correctness against an external standard. Audit output should guide further validation rather than substitute for it.
+
+
+<!-- publication:2026-10-16 -->
+
+## 2026-10-16
+
+Source note: [2026-10-16](articles/2026-10-16-trustworthy-market-data-public-apis.md).
+
+### Public API
+
+A service interface that an external application can call under defined access and usage rules. For market data, its documentation determines request parameters, authentication, response shape, limits, and permitted use. Public availability does not mean unlimited access or unrestricted redistribution.
+
+### HTTP status
+
+A response code that communicates the result of an HTTP request at the protocol level. A success status does not guarantee that a provider returned the requested market observation, because application-level errors or quota messages can appear in the response body.
+
+### Serde
+
+A Rust framework for serializing and deserializing data structures. With suitable derives and attributes, it can map JSON fields to Rust types, including keys that do not match Rust naming conventions. Successful deserialization checks shape and type compatibility, not market-data meaning.
+
+### Asynchronous I/O
+
+A programming approach that allows a task waiting on network input or output to yield execution so other work can proceed. Rust applications commonly use an async runtime such as Tokio with an HTTP client. It improves coordination of waiting work, but does not make a remote service faster or guarantee a response.
+
+### Rate limit
+
+A provider-imposed constraint on how frequently or how many requests a client may make. Limits may be per time window, account, endpoint, or plan, and may include burst or daily caps. The current provider policy and returned throttling signals should guide scheduling.
+
+### Backoff
+
+A retry strategy that waits before making another attempt after a recoverable failure, often increasing the delay across repeated failures. Backoff can reduce repeated pressure during outages or throttling. It must be bounded and cannot override a provider’s request limits.
+
+### Deterministic manifest
+
+A structured inventory whose ordering and representation remain stable for the same eligible files and contents. Stable output makes comparisons and review easier. Determinism does not imply that the scanned directory was an atomic snapshot if files changed during traversal.
+
+### Artifact
+
+A file or other output produced or retained by a software, data, or research workflow, such as a build package, normalized dataset, or report. Recording paths, sizes, and hashes can support artifact comparison, but does not replace provenance records or quality checks.
