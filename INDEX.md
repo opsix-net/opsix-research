@@ -10,3 +10,4 @@
 | 2026-10-14 | [From Responsibilities to Reliable Tools: Designing Small Software Components](articles/2026-10-14-responsibilities-to-reliable-tools.md) | observability and reliability engineering | <!-- publication:2026-10-14 -->
 | 2026-10-15 | [From Spring Physics to Reliable Simulation](articles/2026-10-15-from-spring-physics-to-reliable-simulation.md) | data pipelines and API interoperability | <!-- publication:2026-10-15 -->
 | 2026-10-16 | [From HTTP Response to Trustworthy Market Data](articles/2026-10-16-trustworthy-market-data-public-apis.md) | build artifacts and supply-chain integrity | <!-- publication:2026-10-16 -->
+| 2026-10-19 | [A Synchronous Machine After the Switch: Reading Transients Without Losing the Physics](articles/2026-10-19-synchronous-machine-transient-phenomena.md) | build artifacts and supply-chain integrity | <!-- publication:2026-10-19 -->
