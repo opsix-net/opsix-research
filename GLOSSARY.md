@@ -365,3 +365,46 @@ A structured inventory whose ordering and representation remain stable for the s
 ### Artifact
 
 A file or other output produced or retained by a software, data, or research workflow, such as a build package, normalized dataset, or report. Recording paths, sizes, and hashes can support artifact comparison, but does not replace provenance records or quality checks.
+
+
+<!-- publication:2026-10-19 -->
+
+## 2026-10-19
+
+Source note: [2026-10-19](articles/2026-10-19-synchronous-machine-transient-phenomena.md).
+
+### Subtransient reactance
+
+A synchronous-machine reactance used to represent the earliest response after a sudden disturbance. In the simplified physical picture, induced currents in damper and excitation windings momentarily maintain their coupled fluxes, leaving stator current to affect them through leakage paths.
+
+### Transient reactance
+
+A reactance used for the interval after the subtransient effects have diminished but before the machine reaches steady state. The associated approximation retains the excitation-winding flux response while representing the damper-winding contribution differently.
+
+### Damper winding
+
+A rotor winding or conducting structure that supports induced currents when machine flux changes. Those currents oppose rapid changes in coupled flux and influence the initial, subtransient response.
+
+### Steady-state emf adjustment
+
+A fictitious internal emf defined so a selected reactance, such as a subtransient reactance, can reproduce a specified steady operating point. It is an algebraic consistency device, not evidence of a physical step change in excitation.
+
+### Zero sequence
+
+A symmetrical-component set in which the three phase quantities are equal in magnitude and phase. In the cited machine model, its voltage relation includes stator resistance and a leakage-related inductance.
+
+### Negative sequence
+
+A balanced set of three-phase quantities rotating opposite to the positive-sequence direction. Relative to a synchronously rotating rotor frame, its components vary at twice the supply frequency.
+
+### Saliency
+
+A difference between a synchronous machine's direct-axis and quadrature-axis magnetic behavior, commonly represented by unequal axis reactances. In negative-sequence analysis it can produce waveform distortion and small harmonic components.
+
+### Reference frame
+
+A coordinate system used to express electrical quantities, such as stationary phase coordinates or axes rotating with the rotor. A waveform's apparent frequency can change with the frame, so the frame must be stated when interpreting transient equations.
+
+### Deterministic inventory
+
+A repeatable, ordered record of selected files and their attributes, such as relative paths, byte counts, and content hashes. Determinism concerns stable output for the same scanned state and rules; it does not freeze a changing filesystem during the scan.
