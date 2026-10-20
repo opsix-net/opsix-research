@@ -408,3 +408,46 @@ A coordinate system used to express electrical quantities, such as stationary ph
 ### Deterministic inventory
 
 A repeatable, ordered record of selected files and their attributes, such as relative paths, byte counts, and content hashes. Determinism concerns stable output for the same scanned state and rules; it does not freeze a changing filesystem during the scan.
+
+
+<!-- publication:2026-10-20 -->
+
+## 2026-10-20
+
+Source note: [2026-10-20](articles/2026-10-20-make-financial-charts-earn-their-ink.md).
+
+### Clarity
+
+A chart is clear when its intended comparison or trend can be understood without guessing at the meaning of its marks, labels, or scales. Clarity comes from choosing an appropriate visual form and supplying enough context for readers to interpret it.
+
+### Accuracy
+
+Accuracy in visualization includes plotting the correct observations and representing them with truthful scales, units, dates, and annotations. A correct dataset can still produce a misleading chart if the visual frame distorts or obscures its meaning.
+
+### Simplicity
+
+Simplicity means removing elements that do not help answer the chart’s question while retaining essential definitions and context. It is purposeful reduction, not omission of information readers need to interpret the data responsibly.
+
+### Time series
+
+A time series is a sequence of observations indexed by time, such as monthly revenue or daily prices. A line chart often helps reveal its direction and fluctuations, but gaps, irregular timing, and reporting changes need explicit attention.
+
+### Baseline
+
+A baseline is the reference value from which an axis or visual mark begins. Bar charts commonly use zero because bar length is interpreted proportionally; a truncated baseline can exaggerate differences. Line charts may use a narrower range, provided it is clear.
+
+### Logarithmic scale
+
+A logarithmic scale places equal multiplicative changes at equal visual distances. It can help compare relative growth across magnitudes, but changes the interpretation of spacing, cannot display zero, and should be identified clearly for readers.
+
+### Annotation
+
+An annotation is explanatory text or a marker placed alongside a chart’s data. It can identify a reporting change, notable value, or relevant event. Annotations should distinguish documented context from causal interpretations that the chart alone cannot establish.
+
+### Color encoding
+
+Color encoding uses color to represent categories, highlight observations, or distinguish series. It works best when applied consistently and with adequate contrast. Pairing color with labels or other visual cues helps readers who cannot distinguish particular colors.
+
+### Directed cycle
+
+A directed cycle is a path of dependency edges that eventually returns to its starting node. In a task graph, it creates circular prerequisites, so no valid topological order can include all affected nodes.
