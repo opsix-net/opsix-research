@@ -451,3 +451,50 @@ Color encoding uses color to represent categories, highlight observations, or di
 ### Directed cycle
 
 A directed cycle is a path of dependency edges that eventually returns to its starting node. In a task graph, it creates circular prerequisites, so no valid topological order can include all affected nodes.
+
+
+<!-- publication:2026-10-21 -->
+
+## 2026-10-21
+
+Source note: [2026-10-21](articles/2026-10-21-reading-images-by-their-frequencies.md).
+
+### Spatial domain
+
+A representation of an image by values at pixel locations. Each array position corresponds to a location in the image, and its value may represent grayscale intensity or a channel value. Spatial operations act directly on these pixels or their neighborhoods.
+
+### Frequency domain
+
+A representation that describes how strongly different spatial patterns contribute to an image. Frequencies indicate rates of variation and directions across the pixel grid. This representation can make periodic structures and filter design easier to inspect.
+
+### Discrete Fourier transform
+
+A finite-array transform that expresses sampled data as discrete frequency components. Its coefficients generally contain magnitude and phase information. A matching inverse transform reconstructs the input, subject to the library's normalization convention and numerical precision.
+
+### Fast Fourier transform
+
+An algorithmic family for computing a discrete Fourier transform more efficiently than a direct summation for many input sizes. FFT describes how the transform is computed, not a different mathematical representation or a filtering operation by itself.
+
+### DC component
+
+The zero-frequency coefficient of a transform. For an image, it is related to the sum or mean pixel intensity, depending on transform normalization. Changing the image's constant brightness offset changes this component.
+
+### Magnitude spectrum
+
+A display or analysis of the magnitudes of Fourier coefficients, often with logarithmic scaling to show both strong and weak components. It omits phase, so it cannot alone specify the original image or its reconstruction.
+
+### Low-pass filter
+
+A filter that retains or emphasizes low spatial frequencies while attenuating higher ones. Its effect commonly includes smoothing, but it can also remove fine details that are meaningful, such as narrow edges or small structures.
+
+### High-pass filter
+
+A filter that attenuates low spatial frequencies and retains higher ones. It can emphasize rapid intensity changes such as edges, but it may also emphasize high-frequency noise and produce artifacts.
+
+### Convolution theorem
+
+A Fourier relationship stating that convolution in the spatial domain corresponds to multiplication in the frequency domain, with the reverse relationship applying to multiplication. This connects spatial filters with transform-based filtering and can guide implementation choices.
+
+### Deconvolution
+
+An attempt to infer an image before blur by reversing a convolution model. Direct inversion can amplify noise where the blur response is small, so practical methods often need regularization, a noise model, or other assumptions.
