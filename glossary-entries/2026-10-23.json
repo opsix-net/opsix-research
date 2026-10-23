@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-23",
+  "article": "articles/2026-10-23-tuples-data-boundary-csv-records.md",
+  "terms": [
+    {
+      "term": "Tuple",
+      "definition": "An ordered Python collection whose slots cannot be reassigned after creation. Tuples commonly represent small, fixed-shape groups, such as coordinates or a record with a known set of fields. A tuple can still contain mutable objects, so immutability of the outer grouping does not imply every nested value is immutable."
+    },
+    {
+      "term": "Unpacking",
+      "definition": "Assignment that distributes elements from an iterable to multiple target names by position. For example, `a, b = (3, 4)` assigns the first element to `a` and the second to `b`. Unless starred targets are used, the number of elements must match the number of targets."
+    },
+    {
+      "term": "Iterable",
+      "definition": "An object that can provide its elements one at a time, such as a list, tuple, or string. Unpacking works with iterables, not only tuples. The iterable must yield an appropriate number of values for the assignment pattern, or Python raises an error."
+    },
+    {
+      "term": "CSV",
+      "definition": "Comma-separated values is a text format for tabular records, often with a header row. Real CSV syntax includes quoting and escaping rules, so splitting each line on a comma is not a reliable general parser. Python's `csv` module is designed to handle those conventions."
+    },
+    {
+      "term": "Schema",
+      "definition": "A description of a dataset's expected fields, their order or names, and often their types and constraints. A stable schema lets code interpret positions consistently. Shape checks catch some schema violations, but correct field counts alone do not prove that values have the intended meaning."
+    },
+    {
+      "term": "Ragged row",
+      "definition": "A tabular record whose number of fields differs from the expected column count. It may result from malformed input or an unexpected delimiter. A ragged row can make positional mapping ambiguous, so a pipeline should report or handle it explicitly rather than quietly assigning shifted meanings."
+    },
+    {
+      "term": "Missing value",
+      "definition": "A value absent according to a chosen data policy. In this utility, an empty field or a field containing only whitespace is counted as missing. A nonnumeric string or a nonfinite numeric token is not counted as missing, even though it is excluded from the numeric summaries."
+    },
+    {
+      "term": "Finite number",
+      "definition": "A numeric value that is neither positive infinity, negative infinity, nor NaN. The profiler includes values that parse as Python floats and pass a finiteness check. This prevents nonfinite values from contaminating reported counts, sums, minima, maxima, and means."
+    },
+    {
+      "term": "Descriptive statistic",
+      "definition": "A numerical summary that describes observed data, such as a mean, minimum, or maximum. Such summaries do not by themselves establish statistical significance, causality, representativeness, or scientific validity. Interpretation requires context about sampling, measurement, and the question being studied."
+    },
+    {
+      "term": "Data validation",
+      "definition": "Checks that input conforms to structural and domain expectations, such as field count, parseable types, allowed ranges, and units. A row-shape check is one useful layer, but validation usually needs additional rules tailored to the dataset and the decisions made from it."
+    }
+  ]
+}

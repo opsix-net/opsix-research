@@ -13,3 +13,4 @@
 | 2026-10-19 | [A Synchronous Machine After the Switch: Reading Transients Without Losing the Physics](articles/2026-10-19-synchronous-machine-transient-phenomena.md) | build artifacts and supply-chain integrity | <!-- publication:2026-10-19 -->
 | 2026-10-20 | [Make Financial Charts Earn Their Ink](articles/2026-10-20-make-financial-charts-earn-their-ink.md) | build systems and workflow orchestration | <!-- publication:2026-10-20 -->
 | 2026-10-21 | [Reading Images by Their Frequencies](articles/2026-10-21-reading-images-by-their-frequencies.md) | asset pipelines and storage engineering | <!-- publication:2026-10-21 -->
+| 2026-10-23 | [Tuples at the Data Boundary: Unpacking Records Without Losing Their Shape](articles/2026-10-23-tuples-data-boundary-csv-records.md) | analytics and data quality | <!-- publication:2026-10-23 -->

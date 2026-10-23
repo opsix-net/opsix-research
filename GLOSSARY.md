@@ -498,3 +498,42 @@ A Fourier relationship stating that convolution in the spatial domain correspond
 ### Deconvolution
 
 An attempt to infer an image before blur by reversing a convolution model. Direct inversion can amplify noise where the blur response is small, so practical methods often need regularization, a noise model, or other assumptions.
+
+
+<!-- publication:2026-10-23 -->
+
+## 2026-10-23
+
+Source note: [2026-10-23](articles/2026-10-23-tuples-data-boundary-csv-records.md).
+
+### Tuple
+
+An ordered Python collection whose slots cannot be reassigned after creation. Tuples commonly represent small, fixed-shape groups, such as coordinates or a record with a known set of fields. A tuple can still contain mutable objects, so immutability of the outer grouping does not imply every nested value is immutable.
+
+### Unpacking
+
+Assignment that distributes elements from an iterable to multiple target names by position. For example, `a, b = (3, 4)` assigns the first element to `a` and the second to `b`. Unless starred targets are used, the number of elements must match the number of targets.
+
+### Iterable
+
+An object that can provide its elements one at a time, such as a list, tuple, or string. Unpacking works with iterables, not only tuples. The iterable must yield an appropriate number of values for the assignment pattern, or Python raises an error.
+
+### CSV
+
+Comma-separated values is a text format for tabular records, often with a header row. Real CSV syntax includes quoting and escaping rules, so splitting each line on a comma is not a reliable general parser. Python's `csv` module is designed to handle those conventions.
+
+### Schema
+
+A description of a dataset's expected fields, their order or names, and often their types and constraints. A stable schema lets code interpret positions consistently. Shape checks catch some schema violations, but correct field counts alone do not prove that values have the intended meaning.
+
+### Missing value
+
+A value absent according to a chosen data policy. In this utility, an empty field or a field containing only whitespace is counted as missing. A nonnumeric string or a nonfinite numeric token is not counted as missing, even though it is excluded from the numeric summaries.
+
+### Finite number
+
+A numeric value that is neither positive infinity, negative infinity, nor NaN. The profiler includes values that parse as Python floats and pass a finiteness check. This prevents nonfinite values from contaminating reported counts, sums, minima, maxima, and means.
+
+### Descriptive statistic
+
+A numerical summary that describes observed data, such as a mean, minimum, or maximum. Such summaries do not by themselves establish statistical significance, causality, representativeness, or scientific validity. Interpretation requires context about sampling, measurement, and the question being studied.
