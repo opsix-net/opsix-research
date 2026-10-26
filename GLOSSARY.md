@@ -537,3 +537,38 @@ A numeric value that is neither positive infinity, negative infinity, nor NaN. T
 ### Descriptive statistic
 
 A numerical summary that describes observed data, such as a mean, minimum, or maximum. Such summaries do not by themselves establish statistical significance, causality, representativeness, or scientific validity. Interpretation requires context about sampling, measurement, and the question being studied.
+
+
+<!-- publication:2026-10-26 -->
+
+## 2026-10-26
+
+Source note: [2026-10-26](articles/2026-10-26-python-basics-trustworthy-research-workflows.md).
+
+### Virtual environment
+
+An isolated Python installation context for a project’s packages. It helps prevent one project’s dependency choices from changing another project or the system interpreter, though it does not by itself record every dependency version or guarantee reproducibility.
+
+### Simple return
+
+The change in a value divided by its earlier value: $(P_t-P_{t-1})/P_{t-1}$. It expresses proportional change over an interval and differs from a log return. Its interpretation depends on consistent prices, timing, and adjustment conventions.
+
+### DataFrame
+
+A two-dimensional labeled tabular structure provided by pandas. Rows and columns can carry labels, which is useful for aligning observations and working with time series. Labels do not ensure that the underlying records are correct or complete.
+
+### Vectorization
+
+Applying an operation across an array or collection through library operations rather than writing an explicit Python loop for each element. NumPy and pandas support vectorized workflows, which can improve clarity or performance, but data types and missing-value behavior still matter.
+
+### Encapsulation
+
+An object-oriented design practice that groups related state and behavior behind a defined interface. It can make responsibilities easier to understand and maintain, but does not automatically make an implementation secure, correct, or impossible to misuse.
+
+### Rolling window
+
+A calculation applied repeatedly to a moving subset of ordered observations, such as the latest 20 values for each position. A window may count observations or represent elapsed time; those meanings differ when sampling intervals are irregular.
+
+### Non-finite value
+
+A numeric value that is not a finite real number, commonly NaN or positive or negative infinity in floating-point computing. Such values can propagate through calculations, so analysis code should define whether to reject, filter, or otherwise handle them.
