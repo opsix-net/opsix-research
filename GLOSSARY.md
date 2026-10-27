@@ -572,3 +572,46 @@ A calculation applied repeatedly to a moving subset of ordered observations, suc
 ### Non-finite value
 
 A numeric value that is not a finite real number, commonly NaN or positive or negative infinity in floating-point computing. Such values can propagate through calculations, so analysis code should define whether to reject, filter, or otherwise handle them.
+
+
+<!-- publication:2026-10-27 -->
+
+## 2026-10-27
+
+Source note: [2026-10-27](articles/2026-10-27-classifier-scores-decisions-metrics.md).
+
+### Log severity
+
+A label such as DEBUG, INFO, WARN, ERROR, or FATAL that indicates an event's operational importance according to a logging convention. Severity labels are meaningful only when producers apply them consistently, and a summarizer can count labels but cannot verify that the chosen severity was correct.
+
+### Matching line
+
+A single input line for which the selected pattern finds at least one match. The utility counts each qualifying line once, even if the expression matches multiple separate substrings within that line.
+
+### Confusion matrix
+
+A table of counts comparing predicted binary labels with known actual labels. Its four outcomes are true positives, false positives, true negatives, and false negatives. The matrix supports threshold-specific metrics and should be interpreted with its positive class and row/column orientation stated.
+
+### Precision
+
+The fraction of positive predictions that are true positives: $TP/(TP+FP)$. It answers how often positive predictions are correct in the evaluated data. It is undefined when the classifier makes no positive predictions unless a reporting convention supplies a value.
+
+### Recall
+
+The fraction of actual positives identified: $TP/(TP+FN)$. Also called sensitivity or true positive rate, it focuses on missed positive cases. It is undefined when the evaluation set contains no actual positives.
+
+### Decision threshold
+
+A cutoff applied to a model score to turn a ranking or probability-like output into a binary label. Changing the threshold changes false-positive and false-negative counts, so the appropriate value depends on consequences and operational constraints.
+
+### ROC AUC
+
+The area under the receiver operating characteristic curve, which plots true positive rate against false positive rate across thresholds. It summarizes ranking discrimination, but does not by itself specify a usable threshold, guarantee calibrated probabilities, or state the number of resulting alerts.
+
+### Decile
+
+One of ten ranked groups formed by sorting observations by a score and dividing them into segments. Deciles help describe how outcomes concentrate across a ranking, but ties, small datasets, and bucket-construction rules can affect group boundaries.
+
+### Kolmogorov-Smirnov statistic
+
+A measure often used in binary scoring to report the maximum separation between cumulative score distributions for positive and negative classes. Its exact sign and calculation depend on convention; it describes separation and does not establish causation or future stability.
