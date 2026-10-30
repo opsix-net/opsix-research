@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-30",
+  "article": "articles/2026-10-30-nand-boolean-rules-and-duplicate-reports.md",
+  "terms": [
+    {
+      "term": "Boolean proposition",
+      "definition": "A statement modeled as having one of two truth values, true or false. Boolean algebra manipulates these values using operations such as conjunction, disjunction, and negation. Real systems may have unknown or missing states, so those must be modeled deliberately rather than silently treated as ordinary false values."
+    },
+    {
+      "term": "NAND",
+      "definition": "The negation of conjunction: $p \\uparrow q=(pq)'$. NAND is true unless both inputs are true. It is functionally complete, meaning any Boolean function can be constructed from NAND operations alone."
+    },
+    {
+      "term": "Conjunction",
+      "definition": "The logical AND of propositions, written $pq$ or $p \\land q$. It is true only when every input proposition is true. In a policy expression, a conjunction commonly represents conditions that must all hold."
+    },
+    {
+      "term": "Negation",
+      "definition": "The operation that reverses a proposition’s truth value, commonly written with a prime such as $p'$. Negation applies to the expression within its scope, so parentheses matter when complementing a compound statement."
+    },
+    {
+      "term": "Disjunction",
+      "definition": "The inclusive logical OR, written $p+q$ or $p \\lor q$. It is true when at least one input is true, including the case where both inputs are true. This differs from exclusive OR."
+    },
+    {
+      "term": "Exclusive OR",
+      "definition": "A connective, often written $p \\mathbin{\\pm} q$, that is true when exactly one of its two inputs is true. Its expression $pq' + p'q$ makes clear that the inputs must differ."
+    },
+    {
+      "term": "Truth set",
+      "definition": "The set of points or cases for which a proposition is true, relative to a specified universe. For NAND, the truth set is the complement of the intersection of the truth sets for its inputs."
+    },
+    {
+      "term": "Disjunctive normal form",
+      "definition": "A Boolean expression written as an OR of terms, where each term is typically a conjunction of literals. Replacing OR with XOR preserves the result only when the terms cannot be true together."
+    },
+    {
+      "term": "SHA-256",
+      "definition": "A cryptographic hash function that maps byte sequences to fixed-length digests. The duplicate-report utility uses it to group same-sized files with matching content digests. A matching digest is the tool’s criterion for reporting identical files."
+    },
+    {
+      "term": "Potential redundant bytes",
+      "definition": "The utility’s estimated storage represented by extra copies in a duplicate group. For files of size $s$ in a group of $n$ paths, it reports $s(n-1)$ bytes. This estimate does not establish that any copy is safe to remove."
+    }
+  ]
+}

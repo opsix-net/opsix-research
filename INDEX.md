@@ -16,3 +16,4 @@
 | 2026-10-23 | [Tuples at the Data Boundary: Unpacking Records Without Losing Their Shape](articles/2026-10-23-tuples-data-boundary-csv-records.md) | analytics and data quality | <!-- publication:2026-10-23 -->
 | 2026-10-26 | [From Python Basics to Trustworthy Research Workflows](articles/2026-10-26-python-basics-trustworthy-research-workflows.md) | build artifacts and supply-chain integrity | <!-- publication:2026-10-26 -->
 | 2026-10-27 | [From Scores to Decisions: Reading Classifier Metrics Without Fooling Yourself](articles/2026-10-27-classifier-scores-decisions-metrics.md) | observability and reliability engineering | <!-- publication:2026-10-27 -->
+| 2026-10-30 | [NAND: One Small Rule, Many Boolean Circuits](articles/2026-10-30-nand-boolean-rules-and-duplicate-reports.md) | asset pipelines and storage engineering | <!-- publication:2026-10-30 -->
