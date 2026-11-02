@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-02",
+  "article": "articles/2026-11-02-spectrahedral-shadows-projections-and-data-quality.md",
+  "terms": [
+    {
+      "term": "Spectrahedron",
+      "definition": "A subset of a finite-dimensional real vector space defined by a linear matrix inequality, typically the set of points where a symmetric affine-linear matrix is positive semidefinite. Spectrahedra are convex and closed."
+    },
+    {
+      "term": "Spectrahedral shadow",
+      "definition": "The affine-linear image of a spectrahedron. It remains convex and semialgebraic, but it need not itself be a spectrahedron and may fail to be closed."
+    },
+    {
+      "term": "Linear matrix inequality",
+      "definition": "A constraint requiring a symmetric matrix, whose entries depend affinely on decision variables, to be positive semidefinite. It imposes a joint matrix condition rather than independent scalar bounds."
+    },
+    {
+      "term": "Lifted representation",
+      "definition": "A description that adds auxiliary variables and expresses a visible feasible set as the projection of a higher-dimensional set. The extra variables can enable a compact or structured formulation."
+    },
+    {
+      "term": "Positive semidefinite",
+      "definition": "A real symmetric matrix is positive semidefinite when every quadratic form it defines is nonnegative, equivalently when all its eigenvalues are nonnegative."
+    },
+    {
+      "term": "Projection",
+      "definition": "The map that retains selected coordinates and discards the others. In a lifted feasibility description, a visible point belongs to the projection if at least one choice of hidden coordinates makes the constraints feasible."
+    },
+    {
+      "term": "Semialgebraic set",
+      "definition": "A set describable using finitely many polynomial equalities and inequalities combined with Boolean operations. Projections of semialgebraic sets remain semialgebraic by the projection theorem."
+    },
+    {
+      "term": "Sum of squares",
+      "definition": "A polynomial expressible as a finite sum of squares of polynomials. A positive semidefinite Gram matrix can encode such a representation relative to a chosen polynomial basis."
+    },
+    {
+      "term": "Lasserre-Parrilo relaxation",
+      "definition": "A family of semidefinite constructions based on truncated polynomial data and sums-of-squares conditions, used to approximate semialgebraic sets and, in suitable cases, convex hulls. Exactness depends on the problem and degree bounds."
+    },
+    {
+      "term": "Ragged CSV row",
+      "definition": "A CSV record whose parsed field count differs from the header's field count. In `csv-profile`, such records are reported by CSV record number, which may differ from physical line number, and excluded from per-column statistics."
+    }
+  ]
+}

@@ -658,3 +658,50 @@ A Boolean expression written as an OR of terms, where each term is typically a c
 ### Potential redundant bytes
 
 The utility’s estimated storage represented by extra copies in a duplicate group. For files of size $s$ in a group of $n$ paths, it reports $s(n-1)$ bytes. This estimate does not establish that any copy is safe to remove.
+
+
+<!-- publication:2026-11-02 -->
+
+## 2026-11-02
+
+Source note: [2026-11-02](articles/2026-11-02-spectrahedral-shadows-projections-and-data-quality.md).
+
+### Spectrahedron
+
+A subset of a finite-dimensional real vector space defined by a linear matrix inequality, typically the set of points where a symmetric affine-linear matrix is positive semidefinite. Spectrahedra are convex and closed.
+
+### Spectrahedral shadow
+
+The affine-linear image of a spectrahedron. It remains convex and semialgebraic, but it need not itself be a spectrahedron and may fail to be closed.
+
+### Linear matrix inequality
+
+A constraint requiring a symmetric matrix, whose entries depend affinely on decision variables, to be positive semidefinite. It imposes a joint matrix condition rather than independent scalar bounds.
+
+### Lifted representation
+
+A description that adds auxiliary variables and expresses a visible feasible set as the projection of a higher-dimensional set. The extra variables can enable a compact or structured formulation.
+
+### Positive semidefinite
+
+A real symmetric matrix is positive semidefinite when every quadratic form it defines is nonnegative, equivalently when all its eigenvalues are nonnegative.
+
+### Projection
+
+The map that retains selected coordinates and discards the others. In a lifted feasibility description, a visible point belongs to the projection if at least one choice of hidden coordinates makes the constraints feasible.
+
+### Semialgebraic set
+
+A set describable using finitely many polynomial equalities and inequalities combined with Boolean operations. Projections of semialgebraic sets remain semialgebraic by the projection theorem.
+
+### Sum of squares
+
+A polynomial expressible as a finite sum of squares of polynomials. A positive semidefinite Gram matrix can encode such a representation relative to a chosen polynomial basis.
+
+### Lasserre-Parrilo relaxation
+
+A family of semidefinite constructions based on truncated polynomial data and sums-of-squares conditions, used to approximate semialgebraic sets and, in suitable cases, convex hulls. Exactness depends on the problem and degree bounds.
+
+### Ragged CSV row
+
+A CSV record whose parsed field count differs from the header's field count. In `csv-profile`, such records are reported by CSV record number, which may differ from physical line number, and excluded from per-column statistics.
