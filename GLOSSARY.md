@@ -705,3 +705,46 @@ A family of semidefinite constructions based on truncated polynomial data and su
 ### Ragged CSV row
 
 A CSV record whose parsed field count differs from the header's field count. In `csv-profile`, such records are reported by CSV record number, which may differ from physical line number, and excluded from per-column statistics.
+
+
+<!-- publication:2026-11-03 -->
+
+## 2026-11-03
+
+Source note: [2026-11-03](articles/2026-11-03-ordered-history-time-series-prediction.md).
+
+### Ordinary least squares (OLS)
+
+A method for estimating regression coefficients by minimizing the sum of squared differences between observed targets and model predictions. OLS describes a fitting criterion; it does not by itself ensure that a model is well specified or predicts future observations reliably.
+
+### Regression
+
+A modeling approach that relates input variables to a numeric outcome. Linear regression expresses the predicted outcome as a weighted sum of inputs, optionally plus an intercept, and is often used as a baseline because its structure is straightforward to inspect.
+
+### Lag
+
+A previous observation used as an input for a time-based prediction. With three lags, a training row uses three consecutive historical values to predict a later value. The chosen lag count controls input width, not a guarantee about how much history contains useful information.
+
+### Design matrix
+
+A matrix whose rows represent training cases and whose columns represent model inputs. In a lagged prediction problem, each row contains historical observations aligned with one later target.
+
+### Target
+
+The outcome a model is trained to predict. A target might be a future price level, return, or direction label. Defining the target precisely determines how inputs must be aligned and how predictions should be evaluated.
+
+### Extrapolation
+
+Using a fitted relationship to make predictions outside the range of input values represented in the training data. A model can calculate extrapolated values, but the calculation does not establish that the relationship continues beyond the observed range.
+
+### Classification
+
+A prediction task in which the outcome is a category rather than a continuous numeric value. A market example is labeling a future movement as up or down, with the exact label definition specified by the analyst.
+
+### Logistic regression
+
+A linear classification method that models class probabilities through a logistic function. Its output can support a class decision, but the target definition, evaluation design, and decision threshold remain important choices.
+
+### Data leakage
+
+The accidental use of information that would not have been available at the intended prediction time. In time-series work, reversed alignment or fitting preprocessing on future evaluation data can create leakage and make measured performance misleading.
