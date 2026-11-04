@@ -748,3 +748,38 @@ A linear classification method that models class probabilities through a logisti
 ### Data leakage
 
 The accidental use of information that would not have been available at the intended prediction time. In time-series work, reversed alignment or fitting preprocessing on future evaluation data can create leakage and make measured performance misleading.
+
+
+<!-- publication:2026-11-04 -->
+
+## 2026-11-04
+
+Source note: [2026-11-04](articles/2026-11-04-green-test-run-not-guarantee.md).
+
+### Line coverage
+
+A measurement of which executable source lines ran during a particular test run. It can help locate unvisited code, but it does not show whether tests checked correct outcomes or whether the selected test inputs represent important cases.
+
+### Branch coverage
+
+A measurement of whether alternatives in control flow, such as both outcomes of a conditional, were exercised. Its exact reporting depends on the coverage tool and configuration. Exercising a branch still does not prove that the program's behavior is correct.
+
+### Assertion
+
+A test check that compares observed behavior with an expected result or condition. Assertions make tests informative: a test that merely calls a function may execute code without detecting an incorrect return value or missing error.
+
+### Dependency declaration
+
+A maintained record of packages an application or its tests require. Declaring dependencies lets clean environments install what the project needs instead of relying on packages that happen to be present on a developer's machine.
+
+### tox
+
+A tool for configuring and running commands in isolated Python test environments. A project can use it to standardize dependency installation and test commands, and to run checks across configured interpreter environments.
+
+### Continuous integration
+
+An automated process that runs configured checks, such as tests, on proposed or committed changes. It makes results repeatable across a team, but it cannot compensate for checks that were omitted or tests that do not verify requirements.
+
+### Hidden path
+
+A path containing a component whose name begins with a period, such as `.cache/data.bin`. The duplicate-report utility skips such paths, as well as symlinks, so its result intentionally excludes some files under the root.

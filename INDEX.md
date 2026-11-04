@@ -19,3 +19,4 @@
 | 2026-10-30 | [NAND: One Small Rule, Many Boolean Circuits](articles/2026-10-30-nand-boolean-rules-and-duplicate-reports.md) | asset pipelines and storage engineering | <!-- publication:2026-10-30 -->
 | 2026-11-02 | [When a Projection Changes the Shape of a Feasible Set](articles/2026-11-02-spectrahedral-shadows-projections-and-data-quality.md) | analytics and data quality | <!-- publication:2026-11-02 -->
 | 2026-11-03 | [From Ordered History to Predictions: Building Time-Series Features](articles/2026-11-03-ordered-history-time-series-prediction.md) | asset pipelines and storage engineering | <!-- publication:2026-11-03 -->
+| 2026-11-04 | [A Green Test Run Is a Starting Point, Not a Guarantee](articles/2026-11-04-green-test-run-not-guarantee.md) | asset pipelines and storage engineering | <!-- publication:2026-11-04 -->
