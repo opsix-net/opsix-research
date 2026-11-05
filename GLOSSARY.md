@@ -783,3 +783,42 @@ An automated process that runs configured checks, such as tests, on proposed or 
 ### Hidden path
 
 A path containing a component whose name begins with a period, such as `.cache/data.bin`. The duplicate-report utility skips such paths, as well as symlinks, so its result intentionally excludes some files under the root.
+
+
+<!-- publication:2026-11-05 -->
+
+## 2026-11-05
+
+Source note: [2026-11-05](articles/2026-11-05-from-messy-reality-to-rules-a-computer-can-run.md).
+
+### Decomposition
+
+The practice of dividing a larger problem into smaller responsibilities or subsystems. In software, decomposition helps separate input collection, decision logic, device control, and user interaction so each can be understood, implemented, and tested with fewer unrelated concerns.
+
+### Abstraction
+
+A representation that retains details relevant to a task while setting other details aside. A common sensor interface, for example, can expose readings without requiring every consumer to know the sensor’s physical design.
+
+### Model
+
+A deliberately simplified description of a system’s structure or behavior. A model is useful when it supports implementation, testing, or communication, but it should not be mistaken for a complete account of the real-world system.
+
+### Predicate
+
+A condition that evaluates to true or false for given inputs. Comparisons such as $T < 4.0$ are predicates; writing them precisely clarifies boundary behavior and makes rule logic easier to test.
+
+### Rule
+
+A defined relationship between observed conditions and a decision or action. Rules can represent threshold checks, state checks, or combinations of conditions, and should specify how ambiguous or boundary cases are handled.
+
+### Subsystem
+
+A distinguishable part of a larger system organized around a related responsibility. A subsystem may collect readings and react to them while depending on other parts for user interaction, communication, or shared data.
+
+### Sensor
+
+A physical or software source of measurements or observations. To interpret a sensor reading reliably, a system often needs context such as its identity, unit, location, and timestamp, as well as a policy for missing or invalid values.
+
+### Hysteresis
+
+A control technique that uses different thresholds for switching into and out of a state. The gap can reduce rapid toggling when measurements fluctuate near a single boundary; it does not by itself determine whether chosen thresholds are appropriate.
