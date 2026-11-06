@@ -822,3 +822,34 @@ A physical or software source of measurements or observations. To interpret a se
 ### Hysteresis
 
 A control technique that uses different thresholds for switching into and out of a state. The gap can reduce rapid toggling when measurements fluctuate near a single boundary; it does not by itself determine whether chosen thresholds are appropriate.
+
+
+<!-- publication:2026-11-06 -->
+
+## 2026-11-06
+
+Source note: [2026-11-06](articles/2026-11-06-time-series-analysis-respect-the-clock.md).
+
+### Sampling frequency
+
+The schedule or rate at which observations are collected, such as hourly, daily, or once per trading session. Frequency determines how to interpret windows, gaps, and resampling, but irregular event data may not have a single fixed interval.
+
+### Resampling
+
+Changing a time series to a different temporal grouping or frequency, usually by aggregating observations or selecting values within intervals. The chosen rule, such as sum, mean, or last observation, changes the quantity being represented.
+
+### Missing observation
+
+An expected measurement that is absent or unavailable. It differs from a time when no measurement was scheduled, such as a market holiday. Filling missing values makes assumptions and can affect trends, returns, and estimates of variability.
+
+### Trailing moving average
+
+The arithmetic mean of a fixed number of current and preceding observations. It smooths short-term variation but generally lags changes. Its window counts observations, not calendar days, unless the sampling schedule makes those units equivalent.
+
+### Centered moving average
+
+A moving average aligned to the middle of its input window, using observations both before and after the timestamp it represents. It can help retrospective description, but using it in real-time prediction risks including future information.
+
+### ARIMA
+
+A family of time-series models combining autoregressive terms, differencing, and moving-average error terms. Its commonly denoted orders $(p,d,q)$ describe model structure, not a guarantee of forecast quality; fitting and validation require appropriate assumptions.
