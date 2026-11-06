@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-06",
+  "article": "articles/2026-11-06-time-series-analysis-respect-the-clock.md",
+  "terms": [
+    {
+      "term": "Time series",
+      "definition": "A sequence of observations associated with times or dates. The index conveys ordering and may also encode interval length, calendar rules, or event timing, so identical numeric values can imply different analyses when their timestamps or sampling schedules differ."
+    },
+    {
+      "term": "Sampling frequency",
+      "definition": "The schedule or rate at which observations are collected, such as hourly, daily, or once per trading session. Frequency determines how to interpret windows, gaps, and resampling, but irregular event data may not have a single fixed interval."
+    },
+    {
+      "term": "Resampling",
+      "definition": "Changing a time series to a different temporal grouping or frequency, usually by aggregating observations or selecting values within intervals. The chosen rule, such as sum, mean, or last observation, changes the quantity being represented."
+    },
+    {
+      "term": "Missing observation",
+      "definition": "An expected measurement that is absent or unavailable. It differs from a time when no measurement was scheduled, such as a market holiday. Filling missing values makes assumptions and can affect trends, returns, and estimates of variability."
+    },
+    {
+      "term": "Trailing moving average",
+      "definition": "The arithmetic mean of a fixed number of current and preceding observations. It smooths short-term variation but generally lags changes. Its window counts observations, not calendar days, unless the sampling schedule makes those units equivalent."
+    },
+    {
+      "term": "Centered moving average",
+      "definition": "A moving average aligned to the middle of its input window, using observations both before and after the timestamp it represents. It can help retrospective description, but using it in real-time prediction risks including future information."
+    },
+    {
+      "term": "Decomposition",
+      "definition": "A modeling approach that represents a series using components such as trend, seasonality, and remainder. Additive and multiplicative forms make different assumptions; components should not be treated as guaranteed real-world causes."
+    },
+    {
+      "term": "ARIMA",
+      "definition": "A family of time-series models combining autoregressive terms, differencing, and moving-average error terms. Its commonly denoted orders $(p,d,q)$ describe model structure, not a guarantee of forecast quality; fitting and validation require appropriate assumptions."
+    },
+    {
+      "term": "Data leakage",
+      "definition": "The use of information during model training or evaluation that would not have been available at the intended prediction time. Centered windows or random splits of chronological data can create leakage and make performance appear better than a genuine forward test."
+    },
+    {
+      "term": "JSON Lines",
+      "definition": "A text format in which each nonblank line contains a separate JSON value, commonly one object per record. It supports line-by-line processing, but consumers still need to validate object shape, field consistency, and domain-specific meaning."
+    }
+  ]
+}
