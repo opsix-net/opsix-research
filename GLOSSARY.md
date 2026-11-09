@@ -853,3 +853,50 @@ A moving average aligned to the middle of its input window, using observations b
 ### ARIMA
 
 A family of time-series models combining autoregressive terms, differencing, and moving-average error terms. Its commonly denoted orders $(p,d,q)$ describe model structure, not a guarantee of forecast quality; fitting and validation require appropriate assumptions.
+
+
+<!-- publication:2026-11-09 -->
+
+## 2026-11-09
+
+Source note: [2026-11-09](articles/2026-11-09-reading-regression-tests-without-fooling-yourself.md).
+
+### Regression coefficient
+
+A fitted parameter describing the modeled change in the response associated with a one-unit change in a predictor, conditional on the other included predictors. Its interpretation depends on the model, measurement units, and included variables.
+
+### Standard error
+
+An estimate of the sampling variability of a statistic, such as a regression coefficient. A larger coefficient standard error means less precision and, in a t-test, generally reduces the magnitude of the statistic for a fixed estimate.
+
+### t-statistic
+
+A test statistic formed by dividing the difference between an estimate and its null value by its estimated standard error. Its reference distribution and decision depend on the test design and degrees of freedom.
+
+### Critical value
+
+A cutoff from a test statistic's reference distribution, chosen for a specified test and significance level. For a two-sided t-test with 4 degrees of freedom at 0.05, the approximate cutoffs are -2.776 and 2.776.
+
+### p-value
+
+Assuming the null hypothesis and test model are correct, the probability of obtaining a statistic at least as extreme as the observed one. It is not the probability that the null is true, nor a measure of effect size.
+
+### Degrees of freedom
+
+A quantity reflecting the independent information available for estimating variability in a statistical procedure. In coefficient testing, the degrees of freedom help determine the reference distribution and critical value.
+
+### Multicollinearity
+
+A condition in multiple regression where predictors are strongly related and carry overlapping information. It can make individual coefficient estimates less precise, complicating attempts to distinguish their separate associations with the response.
+
+### Coefficient of determination
+
+The statistic $R^2$, which summarizes the proportion of observed response variation accounted for by a fitted regression in the data used for fitting. A high value alone neither proves a good model nor diagnoses multicollinearity.
+
+### Residual
+
+The difference between an observed response and the response predicted by a fitted model. Residual patterns can help assess whether model assumptions or the chosen functional form are plausible.
+
+### Significance level
+
+A threshold, commonly denoted by $\alpha$, used to define the rejection region for a hypothesis test. It is a decision convention set for the analysis, not a measure of practical importance.

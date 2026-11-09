@@ -22,3 +22,4 @@
 | 2026-11-04 | [A Green Test Run Is a Starting Point, Not a Guarantee](articles/2026-11-04-green-test-run-not-guarantee.md) | asset pipelines and storage engineering | <!-- publication:2026-11-04 -->
 | 2026-11-05 | [From Messy Reality to Rules a Computer Can Run](articles/2026-11-05-from-messy-reality-to-rules-a-computer-can-run.md) | observability and reliability engineering | <!-- publication:2026-11-05 -->
 | 2026-11-06 | [Time Series Analysis: Respect the Clock Before You Forecast](articles/2026-11-06-time-series-analysis-respect-the-clock.md) | data pipelines and API interoperability | <!-- publication:2026-11-06 -->
+| 2026-11-09 | [Reading Regression Tests Without Fooling Yourself](articles/2026-11-09-reading-regression-tests-without-fooling-yourself.md) | observability and reliability engineering | <!-- publication:2026-11-09 -->
