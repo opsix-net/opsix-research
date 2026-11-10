@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-10",
+  "article": "articles/2026-11-10-logic-design-beyond-gate-count.md",
+  "terms": [
+    {
+      "term": "Combinational circuit",
+      "definition": "A digital logic circuit whose outputs depend on the current input values, rather than on a stored history of earlier inputs. Its behavior can be described with Boolean functions or a truth table."
+    },
+    {
+      "term": "Boolean function",
+      "definition": "A function over binary-valued inputs that produces a binary-valued output. Logic design expresses such functions with operators such as AND, OR, and NOT, then implements them using circuit components."
+    },
+    {
+      "term": "Gate count",
+      "definition": "The number of logic gates used in a circuit representation. It is a useful measure of logic complexity, but it does not by itself determine package count, wiring burden, power, timing, or total implementation cost."
+    },
+    {
+      "term": "IC package",
+      "definition": "The physical packaged component that contains one or more integrated circuits and exposes electrical pins for connection to a board. In the article’s context, a package may contain several gates, so its gate capacity affects how a design maps to hardware."
+    },
+    {
+      "term": "SSI",
+      "definition": "Small-scale integration. The source section categorizes SSI packages as containing up to ten logic gates in one package. This integration-scale label does not alone specify the gates’ functions or suitability."
+    },
+    {
+      "term": "MSI",
+      "definition": "Medium-scale integration. In the source section’s categorization, an MSI package contains eleven to one hundred logic gates. Practical use depends on the functions and connections provided by the particular device."
+    },
+    {
+      "term": "LSI",
+      "definition": "Large-scale integration. The source section uses LSI for packages containing more than one hundred gates. The label describes integration scale, not whether a device meets a given system’s functional or electrical requirements."
+    },
+    {
+      "term": "Interconnection",
+      "definition": "An electrical connection linking signals between gates, package pins, or other circuit elements. Package choice can affect how many connections must be made externally, which is one reason gate count alone is insufficient for practical comparisons."
+    },
+    {
+      "term": "SHA-256",
+      "definition": "A cryptographic hash function that maps input bytes to a fixed-length digest. The duplicate-report utility uses SHA-256 to group candidate files with matching content digests after first grouping files by size."
+    },
+    {
+      "term": "Potential redundant bytes",
+      "definition": "The report’s estimate of storage represented by extra copies in each exact-duplicate group. For $n$ identical files of size $s$, it reports $s(n-1)$ bytes, assuming one copy is retained. It is an estimate for review, not a deletion instruction."
+    }
+  ]
+}
