@@ -23,3 +23,4 @@
 | 2026-11-05 | [From Messy Reality to Rules a Computer Can Run](articles/2026-11-05-from-messy-reality-to-rules-a-computer-can-run.md) | observability and reliability engineering | <!-- publication:2026-11-05 -->
 | 2026-11-06 | [Time Series Analysis: Respect the Clock Before You Forecast](articles/2026-11-06-time-series-analysis-respect-the-clock.md) | data pipelines and API interoperability | <!-- publication:2026-11-06 -->
 | 2026-11-09 | [Reading Regression Tests Without Fooling Yourself](articles/2026-11-09-reading-regression-tests-without-fooling-yourself.md) | observability and reliability engineering | <!-- publication:2026-11-09 -->
+| 2026-11-10 | [Logic Design Beyond the Gate Count](articles/2026-11-10-logic-design-beyond-gate-count.md) | asset pipelines and storage engineering | <!-- publication:2026-11-10 -->

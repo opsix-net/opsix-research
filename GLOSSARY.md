@@ -900,3 +900,42 @@ The difference between an observed response and the response predicted by a fitt
 ### Significance level
 
 A threshold, commonly denoted by $\alpha$, used to define the rejection region for a hypothesis test. It is a decision convention set for the analysis, not a measure of practical importance.
+
+
+<!-- publication:2026-11-10 -->
+
+## 2026-11-10
+
+Source note: [2026-11-10](articles/2026-11-10-logic-design-beyond-gate-count.md).
+
+### Combinational circuit
+
+A digital logic circuit whose outputs depend on the current input values, rather than on a stored history of earlier inputs. Its behavior can be described with Boolean functions or a truth table.
+
+### Boolean function
+
+A function over binary-valued inputs that produces a binary-valued output. Logic design expresses such functions with operators such as AND, OR, and NOT, then implements them using circuit components.
+
+### Gate count
+
+The number of logic gates used in a circuit representation. It is a useful measure of logic complexity, but it does not by itself determine package count, wiring burden, power, timing, or total implementation cost.
+
+### IC package
+
+The physical packaged component that contains one or more integrated circuits and exposes electrical pins for connection to a board. In the article’s context, a package may contain several gates, so its gate capacity affects how a design maps to hardware.
+
+### SSI
+
+Small-scale integration. The source section categorizes SSI packages as containing up to ten logic gates in one package. This integration-scale label does not alone specify the gates’ functions or suitability.
+
+### MSI
+
+Medium-scale integration. In the source section’s categorization, an MSI package contains eleven to one hundred logic gates. Practical use depends on the functions and connections provided by the particular device.
+
+### LSI
+
+Large-scale integration. The source section uses LSI for packages containing more than one hundred gates. The label describes integration scale, not whether a device meets a given system’s functional or electrical requirements.
+
+### Interconnection
+
+An electrical connection linking signals between gates, package pins, or other circuit elements. Package choice can affect how many connections must be made externally, which is one reason gate count alone is insufficient for practical comparisons.
