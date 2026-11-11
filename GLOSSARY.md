@@ -939,3 +939,50 @@ Large-scale integration. The source section uses LSI for packages containing mor
 ### Interconnection
 
 An electrical connection linking signals between gates, package pins, or other circuit elements. Package choice can affect how many connections must be made externally, which is one reason gate count alone is insufficient for practical comparisons.
+
+
+<!-- publication:2026-11-11 -->
+
+## 2026-11-11
+
+Source note: [2026-11-11](articles/2026-11-11-central-place-theory-location-models.md).
+
+### Central place
+
+A settlement or service center that supplies goods or services to a nearby population and surrounding market area. In central place theory, different centers can offer different orders of goods, creating a hierarchy of places.
+
+### Market area
+
+The geographic region whose demand is served by a provider or group of providers. Its shape and membership depend on distance, the service offered, allocation rules, and the assumption that consumers choose among available centers.
+
+### Range
+
+The maximum distance a consumer is assumed willing to travel to obtain a particular good or service. A location model may use range as a cutoff for deciding which demand nodes a facility can serve.
+
+### Threshold
+
+The minimum amount of demand or sales required for a provider to be viable in a model. A threshold is an assumption or estimated input, not by itself evidence that a real firm will survive.
+
+### Successively inclusive hierarchy
+
+A service hierarchy in which a place offering a higher-order good must also offer all lower-order goods. Lower-order places may offer basic services without offering the specialized services found at higher levels.
+
+### Location-allocation model
+
+An optimization model that chooses facility locations and assigns demand to facilities. Constraints can represent service distance, provider capacity, minimum demand, budgets, or relationships between service levels.
+
+### Boundary effect
+
+A change in modeled behavior caused by the edge of a finite study region. Edge sites have different neighboring opportunities from interior sites, and omitted demand beyond the boundary can alter coverage or facility viability.
+
+### Dispersion
+
+The spatial separation of selected facilities. A dispersion objective favors spreading locations apart according to a specified distance measure, which is distinct from minimizing facility count or maximizing provider count.
+
+### Pivot column
+
+A column containing a leading nonzero entry, or pivot, in an echelon form of a matrix. Pivot columns identify a set of linearly independent original columns and are commonly indexed from zero in software outputs.
+
+### Exact rational arithmetic
+
+Arithmetic that represents values as ratios of integers rather than approximating them with binary floating-point numbers. It avoids rounding in operations such as rank and determinant calculation, although intermediate numerators and denominators can grow.
