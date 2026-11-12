@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-12",
+  "article": "articles/2026-11-12-dangling-bonds-dependency-graphs.md",
+  "terms": [
+    {
+      "term": "Dangling bond",
+      "definition": "An unsatisfied chemical bond at an atom where the expected bonding arrangement is incomplete. In the described tetrahedral carbon context, it can support an electronic state localized near the structural defect."
+    },
+    {
+      "term": "Localized state",
+      "definition": "An electronic state whose wavefunction is concentrated in a limited region, often around a defect, rather than extending throughout an ideal crystal. Its energy may lie inside the gap between extended valence and conduction bands."
+    },
+    {
+      "term": "Defect band",
+      "definition": "A range of energies associated with many structural defects whose electronic states interact or vary across local environments. Disorder and atomic relaxation can influence its width and position."
+    },
+    {
+      "term": "Donor-type state",
+      "definition": "A defect state described by its tendency to supply an electron under relevant conditions. In the passage’s terminology, the neutral dangling-bond state with one electron is donor-type and neutral when occupied."
+    },
+    {
+      "term": "Acceptor-type state",
+      "definition": "A defect state described by its ability to accept an electron. The passage associates the upper charge-state band with an added electron and describes it as neutral when empty."
+    },
+    {
+      "term": "Hubbard correlation energy",
+      "definition": "The additional energy cost associated with placing a second electron on the same localized site, commonly denoted $U$. Its effective value averages the Coulomb interaction over relevant electronic configurations."
+    },
+    {
+      "term": "Screening",
+      "definition": "The reduction or reshaping of an electric field by the response of other charges in a material. Mobile electrons can screen interactions, affecting how strongly electrons influence one another."
+    },
+    {
+      "term": "Kinetic energy",
+      "definition": "The energy associated with particle motion. For electrons in a solid, delocalization can make more extended motion available, creating a competition between mobility and interaction costs."
+    },
+    {
+      "term": "Mott metal-insulator transition",
+      "definition": "A change between conducting and insulating behavior associated with competition between electron mobility and interaction effects. A qualitative account alone does not determine a material-specific transition threshold."
+    },
+    {
+      "term": "Topological ordering",
+      "definition": "A sequence of graph nodes in which every node appears after its declared prerequisites. Such an order exists for a directed acyclic graph, but not for a graph containing a dependency cycle."
+    }
+  ]
+}
