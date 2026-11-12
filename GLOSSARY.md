@@ -986,3 +986,50 @@ A column containing a leading nonzero entry, or pivot, in an echelon form of a m
 ### Exact rational arithmetic
 
 Arithmetic that represents values as ratios of integers rather than approximating them with binary floating-point numbers. It avoids rounding in operations such as rank and determinant calculation, although intermediate numerators and denominators can grow.
+
+
+<!-- publication:2026-11-12 -->
+
+## 2026-11-12
+
+Source note: [2026-11-12](articles/2026-11-12-dangling-bonds-dependency-graphs.md).
+
+### Dangling bond
+
+An unsatisfied chemical bond at an atom where the expected bonding arrangement is incomplete. In the described tetrahedral carbon context, it can support an electronic state localized near the structural defect.
+
+### Localized state
+
+An electronic state whose wavefunction is concentrated in a limited region, often around a defect, rather than extending throughout an ideal crystal. Its energy may lie inside the gap between extended valence and conduction bands.
+
+### Defect band
+
+A range of energies associated with many structural defects whose electronic states interact or vary across local environments. Disorder and atomic relaxation can influence its width and position.
+
+### Donor-type state
+
+A defect state described by its tendency to supply an electron under relevant conditions. In the passage’s terminology, the neutral dangling-bond state with one electron is donor-type and neutral when occupied.
+
+### Acceptor-type state
+
+A defect state described by its ability to accept an electron. The passage associates the upper charge-state band with an added electron and describes it as neutral when empty.
+
+### Hubbard correlation energy
+
+The additional energy cost associated with placing a second electron on the same localized site, commonly denoted $U$. Its effective value averages the Coulomb interaction over relevant electronic configurations.
+
+### Screening
+
+The reduction or reshaping of an electric field by the response of other charges in a material. Mobile electrons can screen interactions, affecting how strongly electrons influence one another.
+
+### Kinetic energy
+
+The energy associated with particle motion. For electrons in a solid, delocalization can make more extended motion available, creating a competition between mobility and interaction costs.
+
+### Mott metal-insulator transition
+
+A change between conducting and insulating behavior associated with competition between electron mobility and interaction effects. A qualitative account alone does not determine a material-specific transition threshold.
+
+### Topological ordering
+
+A sequence of graph nodes in which every node appears after its declared prerequisites. Such an order exists for a directed acyclic graph, but not for a graph containing a dependency cycle.
