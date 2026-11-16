@@ -1033,3 +1033,30 @@ A change between conducting and insulating behavior associated with competition 
 ### Topological ordering
 
 A sequence of graph nodes in which every node appears after its declared prerequisites. Such an order exists for a directed acyclic graph, but not for a graph containing a dependency cycle.
+
+
+<!-- publication:2026-11-16 -->
+
+## 2026-11-16
+
+Source note: [2026-11-16](articles/2026-11-16-model-evaluation-costs-and-matrix-audits.md).
+
+### False positive rate
+
+The share of actual negative cases incorrectly predicted positive, calculated as $FP/(FP+TN)$. It is plotted on the horizontal axis of a conventional ROC curve. It is not specificity, which is $TN/(TN+FP)$.
+
+### F1 score
+
+The harmonic mean of precision and recall, $2PR/(P+R)$. It combines these two measures into one score but does not include true negatives directly or encode an application’s error costs.
+
+### Mean absolute error
+
+The average magnitude of regression residuals, $\frac{1}{n}\sum_i|r_i|$. It remains in the target variable’s units and does not cancel positive and negative errors, though its average can still be affected by large errors.
+
+### Rank
+
+The number of linearly independent rows or columns of a matrix. Rank reveals algebraic dependencies, such as redundant columns in a design matrix, but does not measure predictive performance or numerical conditioning.
+
+### Determinant
+
+A scalar associated with a square matrix that is zero exactly when the matrix is singular. It is not defined by this utility for rectangular matrices, and a nonzero determinant alone does not guarantee a well-conditioned numerical problem.

@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-16",
+  "article": "articles/2026-11-16-model-evaluation-costs-and-matrix-audits.md",
+  "terms": [
+    {
+      "term": "Confusion matrix",
+      "definition": "A table of predicted and actual class counts. In binary classification, its four entries are true positives, false positives, true negatives, and false negatives. It is tied to a chosen positive class and, for probability-based classifiers, to the threshold used to turn scores into labels."
+    },
+    {
+      "term": "Precision",
+      "definition": "The share of predicted positive cases that are actually positive, calculated as $TP/(TP+FP)$. It is useful when false positive alerts are costly, but is undefined if the classifier predicts no positives."
+    },
+    {
+      "term": "Recall",
+      "definition": "The share of actual positive cases correctly predicted positive, calculated as $TP/(TP+FN)$. It is also called sensitivity or true positive rate, and is undefined when there are no actual positive cases."
+    },
+    {
+      "term": "False positive rate",
+      "definition": "The share of actual negative cases incorrectly predicted positive, calculated as $FP/(FP+TN)$. It is plotted on the horizontal axis of a conventional ROC curve. It is not specificity, which is $TN/(TN+FP)$."
+    },
+    {
+      "term": "F1 score",
+      "definition": "The harmonic mean of precision and recall, $2PR/(P+R)$. It combines these two measures into one score but does not include true negatives directly or encode an application’s error costs."
+    },
+    {
+      "term": "Threshold",
+      "definition": "A cutoff applied to a model score or estimated probability to produce a classification decision. Changing the threshold changes predicted labels and therefore can change confusion-matrix counts and derived metrics."
+    },
+    {
+      "term": "Residual",
+      "definition": "The difference between a regression prediction and its observed value, here defined as $r_i=\\hat{y}_i-y_i$. Under this sign convention, positive residuals indicate overprediction and negative residuals indicate underprediction."
+    },
+    {
+      "term": "Mean absolute error",
+      "definition": "The average magnitude of regression residuals, $\\frac{1}{n}\\sum_i|r_i|$. It remains in the target variable’s units and does not cancel positive and negative errors, though its average can still be affected by large errors."
+    },
+    {
+      "term": "Rank",
+      "definition": "The number of linearly independent rows or columns of a matrix. Rank reveals algebraic dependencies, such as redundant columns in a design matrix, but does not measure predictive performance or numerical conditioning."
+    },
+    {
+      "term": "Pivot column",
+      "definition": "A column containing a leading nonzero entry selected during elimination. Pivot columns identify independent columns under the elimination procedure. In `matrix-audit`, their indices are reported starting at zero."
+    },
+    {
+      "term": "Determinant",
+      "definition": "A scalar associated with a square matrix that is zero exactly when the matrix is singular. It is not defined by this utility for rectangular matrices, and a nonzero determinant alone does not guarantee a well-conditioned numerical problem."
+    }
+  ]
+}
