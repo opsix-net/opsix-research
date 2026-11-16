@@ -26,3 +26,4 @@
 | 2026-11-10 | [Logic Design Beyond the Gate Count](articles/2026-11-10-logic-design-beyond-gate-count.md) | asset pipelines and storage engineering | <!-- publication:2026-11-10 -->
 | 2026-11-11 | [From Hexagons to Hard Decisions: What Central Place Theory Teaches Location Models](articles/2026-11-11-central-place-theory-location-models.md) | scientific computing and engineering | <!-- publication:2026-11-11 -->
 | 2026-11-12 | [From Dangling Bonds to Dependency Graphs: How Local Constraints Shape Systems](articles/2026-11-12-dangling-bonds-dependency-graphs.md) | build systems and workflow orchestration | <!-- publication:2026-11-12 -->
+| 2026-11-16 | [When a Model Is Right, What Does That Cost?](articles/2026-11-16-model-evaluation-costs-and-matrix-audits.md) | scientific computing and engineering | <!-- publication:2026-11-16 -->
