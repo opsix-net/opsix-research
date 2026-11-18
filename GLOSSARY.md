@@ -1060,3 +1060,46 @@ The number of linearly independent rows or columns of a matrix. Rank reveals alg
 ### Determinant
 
 A scalar associated with a square matrix that is zero exactly when the matrix is singular. It is not defined by this utility for rectangular matrices, and a nonzero determinant alone does not guarantee a well-conditioned numerical problem.
+
+
+<!-- publication:2026-11-18 -->
+
+## 2026-11-18
+
+Source note: [2026-11-18](articles/2026-11-18-trustworthy-sentiment-workflows.md).
+
+### Sentiment analysis
+
+A computational process for estimating an expressed attitude, opinion, or affect in data such as text, audio, or images. Its output depends on the defined target and labeling scheme; a sentiment label is not a direct measurement of market direction or a guarantee of predictive value.
+
+### Transformer
+
+A neural network architecture that uses attention mechanisms to represent relationships among elements in a sequence. Transformer-based language models can use surrounding context, but they can still misinterpret sarcasm, domain-specific language, or incomplete and biased inputs.
+
+### Alternative data
+
+Information outside conventional market feeds and financial statements, including examples such as satellite imagery, transaction records, geolocation, and social media. Its unconventional origin does not itself make it relevant, representative, lawful to use, or predictive.
+
+### Data provenance
+
+Information describing where data came from and how it was collected, transformed, and used. Provenance supports reproducibility, investigation, and review, while privacy and retention constraints may limit what should be retained.
+
+### Coverage
+
+The share of expected observations that were actually received or processed for a specified population and interval. Coverage helps expose gaps, but a high value does not establish that the observations are representative or correct.
+
+### Event time
+
+The time an underlying event occurred or was published, as distinct from when a system collected or processed its record. Keeping these timestamps distinct is essential for operational latency analysis and for preventing future-information leakage in backtests.
+
+### Observability
+
+The practice of using outputs such as logs, metrics, and traces to understand a system’s internal behavior. Observability can reveal failures and unusual patterns, but operational health indicators do not by themselves validate a model’s scientific or predictive claims.
+
+### Explainability
+
+Methods and records that help people understand factors or processes behind a model output or system decision. Explanations vary in scope and reliability; a plausible explanation is not automatically a complete account or proof that a model is fair.
+
+### Material non-public information
+
+Information that is not public and could be important to an investment decision. Its handling can raise serious legal and compliance concerns; organizations need appropriate controls and expert guidance rather than relying on a sentiment model to judge permissibility.

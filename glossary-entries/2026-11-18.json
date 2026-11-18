@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-18",
+  "article": "articles/2026-11-18-trustworthy-sentiment-workflows.md",
+  "terms": [
+    {
+      "term": "Sentiment analysis",
+      "definition": "A computational process for estimating an expressed attitude, opinion, or affect in data such as text, audio, or images. Its output depends on the defined target and labeling scheme; a sentiment label is not a direct measurement of market direction or a guarantee of predictive value."
+    },
+    {
+      "term": "Transformer",
+      "definition": "A neural network architecture that uses attention mechanisms to represent relationships among elements in a sequence. Transformer-based language models can use surrounding context, but they can still misinterpret sarcasm, domain-specific language, or incomplete and biased inputs."
+    },
+    {
+      "term": "Alternative data",
+      "definition": "Information outside conventional market feeds and financial statements, including examples such as satellite imagery, transaction records, geolocation, and social media. Its unconventional origin does not itself make it relevant, representative, lawful to use, or predictive."
+    },
+    {
+      "term": "Data provenance",
+      "definition": "Information describing where data came from and how it was collected, transformed, and used. Provenance supports reproducibility, investigation, and review, while privacy and retention constraints may limit what should be retained."
+    },
+    {
+      "term": "Coverage",
+      "definition": "The share of expected observations that were actually received or processed for a specified population and interval. Coverage helps expose gaps, but a high value does not establish that the observations are representative or correct."
+    },
+    {
+      "term": "Event time",
+      "definition": "The time an underlying event occurred or was published, as distinct from when a system collected or processed its record. Keeping these timestamps distinct is essential for operational latency analysis and for preventing future-information leakage in backtests."
+    },
+    {
+      "term": "Observability",
+      "definition": "The practice of using outputs such as logs, metrics, and traces to understand a system’s internal behavior. Observability can reveal failures and unusual patterns, but operational health indicators do not by themselves validate a model’s scientific or predictive claims."
+    },
+    {
+      "term": "Explainability",
+      "definition": "Methods and records that help people understand factors or processes behind a model output or system decision. Explanations vary in scope and reliability; a plausible explanation is not automatically a complete account or proof that a model is fair."
+    },
+    {
+      "term": "Data leakage",
+      "definition": "An evaluation error in which information unavailable at the intended decision time influences training or testing. In time-sensitive analysis, using a later-arriving item as though it were already available can make backtest results misleading."
+    },
+    {
+      "term": "Material non-public information",
+      "definition": "Information that is not public and could be important to an investment decision. Its handling can raise serious legal and compliance concerns; organizations need appropriate controls and expert guidance rather than relying on a sentiment model to judge permissibility."
+    }
+  ]
+}
