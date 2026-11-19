@@ -1103,3 +1103,50 @@ Methods and records that help people understand factors or processes behind a mo
 ### Material non-public information
 
 Information that is not public and could be important to an investment decision. Its handling can raise serious legal and compliance concerns; organizations need appropriate controls and expert guidance rather than relying on a sentiment model to judge permissibility.
+
+
+<!-- publication:2026-11-19 -->
+
+## 2026-11-19
+
+Source note: [2026-11-19](articles/2026-11-19-when-close-enough-breaks-a-data-model.md).
+
+### Semantic model
+
+A structured representation of concepts, entities, and the relationships among them. Its labels and relations have intended meanings, often with formal consequences for search, integration, or automated inference.
+
+### Synonymy
+
+A relation between terms treated as expressing the same or nearly interchangeable meaning in relevant contexts. Similarity, shared subject matter, and usefulness for query expansion do not alone establish synonymy.
+
+### Hyponymy
+
+A more-specific-to-more-general meaning relation, as between “pediatrician” and “doctor.” It should not be represented as synonymy because substituting the broader term may lose an important distinction.
+
+### Identity
+
+The claim that two model elements refer to the same thing, rather than merely similar or related things. Identity links can affect which statements a reasoning system treats as applying to both elements.
+
+### Referential opacity
+
+A risk in linking resources that refer to the same subject but carry statements that are not appropriate in both models. Strong identity can transfer or expose assertions that a receiving model does not intend to accept.
+
+### owl:sameAs
+
+An OWL property expressing identity between resources. Because statements about identical resources can be treated as statements about one another, it is stronger than a general cross-model similarity or mapping.
+
+### owl:equivalentClass
+
+An OWL relation asserting that two classes have equivalent extensions. It is distinct from asserting that the class resources themselves are identical, and should be chosen according to the intended modeling claim.
+
+### skos:exactMatch
+
+A SKOS mapping property for concepts considered an exact match across schemes. Unlike owl:sameAs, it does not require or imply merging all statements about the linked resources.
+
+### Subclass
+
+A relation from a more-specific class to a broader class. Every instance of the subclass is also an instance of the broader class, so using subclassing for an individual entity changes the meaning incorrectly.
+
+### Instance
+
+An individual member of a class. A particular city can be an instance of the class City; it is not ordinarily a subclass of City, which would represent a class rather than an individual.

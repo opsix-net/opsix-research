@@ -28,3 +28,4 @@
 | 2026-11-12 | [From Dangling Bonds to Dependency Graphs: How Local Constraints Shape Systems](articles/2026-11-12-dangling-bonds-dependency-graphs.md) | build systems and workflow orchestration | <!-- publication:2026-11-12 -->
 | 2026-11-16 | [When a Model Is Right, What Does That Cost?](articles/2026-11-16-model-evaluation-costs-and-matrix-audits.md) | scientific computing and engineering | <!-- publication:2026-11-16 -->
 | 2026-11-18 | [From Market Mood to Observable Systems: Building Trustworthy Sentiment Workflows](articles/2026-11-18-trustworthy-sentiment-workflows.md) | observability and reliability engineering | <!-- publication:2026-11-18 -->
+| 2026-11-19 | [When “Close Enough” Breaks a Data Model](articles/2026-11-19-when-close-enough-breaks-a-data-model.md) | asset pipelines and storage engineering | <!-- publication:2026-11-19 -->
