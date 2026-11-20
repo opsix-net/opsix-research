@@ -1150,3 +1150,38 @@ A relation from a more-specific class to a broader class. Every instance of the 
 ### Instance
 
 An individual member of a class. A particular city can be an instance of the class City; it is not ordinarily a subclass of City, which would represent a class rather than an individual.
+
+
+<!-- publication:2026-11-20 -->
+
+## 2026-11-20
+
+Source note: [2026-11-20](articles/2026-11-20-reliable-automation-backtesting.md).
+
+### Automated trading system (ATS)
+
+Software and supporting infrastructure that processes market data, applies programmed decision rules, and may send orders. An ATS includes more than its strategy code: data handling, risk controls, execution, monitoring, and operational safeguards all affect its behavior.
+
+### Backtesting
+
+Evaluating specified strategy rules against historical data under stated assumptions about timing, fills, costs, and risk. A backtest is a conditional simulation, not a guarantee of future performance or a complete recreation of live markets.
+
+### Look-ahead bias
+
+An error that occurs when a historical simulation uses information that would not have been available at the simulated decision time. It can make a strategy appear more successful than a realistically timed process would be.
+
+### Signal generation
+
+The application of defined rules to input data to identify a possible action, such as entering or exiting a position. Signals depend on the data and timing rules supplied to them; they do not by themselves establish that an action is sound.
+
+### Data integrity
+
+The degree to which stored or transmitted data remains accurate, complete, and consistent with its intended source and format. Integrity checks can reveal corruption or gaps, but cannot alone prove that the original source was correct.
+
+### Matrix rank
+
+The number of linearly independent rows or, equivalently, columns in a matrix. Rank describes structural independence, not predictive quality, causal influence, or the practical usefulness of the variables represented by those rows or columns.
+
+### Singular matrix
+
+A square matrix that lacks an inverse. Equivalently, its rank is smaller than its number of columns and its determinant is zero. This structural property does not on its own explain why the represented system is deficient.

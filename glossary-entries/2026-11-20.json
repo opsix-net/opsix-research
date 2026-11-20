@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-20",
+  "article": "articles/2026-11-20-reliable-automation-backtesting.md",
+  "terms": [
+    {
+      "term": "Automated trading system (ATS)",
+      "definition": "Software and supporting infrastructure that processes market data, applies programmed decision rules, and may send orders. An ATS includes more than its strategy code: data handling, risk controls, execution, monitoring, and operational safeguards all affect its behavior."
+    },
+    {
+      "term": "Backtesting",
+      "definition": "Evaluating specified strategy rules against historical data under stated assumptions about timing, fills, costs, and risk. A backtest is a conditional simulation, not a guarantee of future performance or a complete recreation of live markets."
+    },
+    {
+      "term": "Look-ahead bias",
+      "definition": "An error that occurs when a historical simulation uses information that would not have been available at the simulated decision time. It can make a strategy appear more successful than a realistically timed process would be."
+    },
+    {
+      "term": "Signal generation",
+      "definition": "The application of defined rules to input data to identify a possible action, such as entering or exiting a position. Signals depend on the data and timing rules supplied to them; they do not by themselves establish that an action is sound."
+    },
+    {
+      "term": "Data integrity",
+      "definition": "The degree to which stored or transmitted data remains accurate, complete, and consistent with its intended source and format. Integrity checks can reveal corruption or gaps, but cannot alone prove that the original source was correct."
+    },
+    {
+      "term": "Pivot column",
+      "definition": "A column containing a leading nonzero entry in a matrix’s row-echelon form. Pivot columns identify linearly independent columns and are commonly reported using either one-based or zero-based indices, so the indexing convention matters."
+    },
+    {
+      "term": "Matrix rank",
+      "definition": "The number of linearly independent rows or, equivalently, columns in a matrix. Rank describes structural independence, not predictive quality, causal influence, or the practical usefulness of the variables represented by those rows or columns."
+    },
+    {
+      "term": "Determinant",
+      "definition": "A scalar associated with a square matrix that captures, among other properties, whether its columns are linearly independent. A zero determinant means the square matrix is singular; rectangular matrices do not have a determinant."
+    },
+    {
+      "term": "Exact rational arithmetic",
+      "definition": "Arithmetic performed with fractions represented exactly rather than approximated as floating-point decimals. It avoids rounding error for rational inputs, although intermediate numerators and denominators can grow and increase computational cost."
+    },
+    {
+      "term": "Singular matrix",
+      "definition": "A square matrix that lacks an inverse. Equivalently, its rank is smaller than its number of columns and its determinant is zero. This structural property does not on its own explain why the represented system is deficient."
+    }
+  ]
+}
