@@ -1185,3 +1185,34 @@ The number of linearly independent rows or, equivalently, columns in a matrix. R
 ### Singular matrix
 
 A square matrix that lacks an inverse. Equivalently, its rank is smaller than its number of columns and its determinant is zero. This structural property does not on its own explain why the represented system is deficient.
+
+
+<!-- publication:2026-11-23 -->
+
+## 2026-11-23
+
+Source note: [2026-11-23](articles/2026-11-23-neighbors-noise-and-the-shape-of-a-decision.md).
+
+### k-nearest neighbors (kNN)
+
+A supervised learning method that predicts a new observation's label by finding the $k$ closest labeled training observations under a chosen distance rule. Its behavior depends on the features, preprocessing, distance measure, neighborhood size, and voting policy.
+
+### Neighborhood size
+
+The parameter $k$, which specifies how many training observations participate in a nearest-neighbor prediction. Small values can react strongly to individual examples; larger values usually smooth local variation but may obscure small or rare groups.
+
+### Decision boundary
+
+The division in feature space between regions assigned different predicted labels. In kNN, changing $k$, the data distribution, or the distance rule can alter the boundary; larger neighborhoods often produce smoother boundaries.
+
+### Validation data
+
+Observations kept apart from model fitting and used to compare choices such as neighborhood size or preprocessing. A sound split reflects the intended deployment setting and prevents related records or future information from leaking into evaluation.
+
+### Multi-label classification
+
+A prediction task in which one observation may receive several labels at once, rather than exactly one mutually exclusive class. A method must use an appropriate per-label decision rule instead of assuming a single majority-vote winner.
+
+### Average nearest neighbor analysis
+
+A spatial point-pattern approach that studies distances among points and may compare observed spacing with a reference expectation. It shares the idea of proximity with kNN, but addresses spatial arrangement rather than predicting labels from labeled examples.

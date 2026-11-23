@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-23",
+  "article": "articles/2026-11-23-neighbors-noise-and-the-shape-of-a-decision.md",
+  "terms": [
+    {
+      "term": "k-nearest neighbors (kNN)",
+      "definition": "A supervised learning method that predicts a new observation's label by finding the $k$ closest labeled training observations under a chosen distance rule. Its behavior depends on the features, preprocessing, distance measure, neighborhood size, and voting policy."
+    },
+    {
+      "term": "Neighborhood size",
+      "definition": "The parameter $k$, which specifies how many training observations participate in a nearest-neighbor prediction. Small values can react strongly to individual examples; larger values usually smooth local variation but may obscure small or rare groups."
+    },
+    {
+      "term": "Euclidean distance",
+      "definition": "A geometric distance computed as the square root of the sum of squared coordinate differences. It is common for numeric features, but its usefulness depends on sensible feature scales and a meaningful representation of the observations."
+    },
+    {
+      "term": "Feature scaling",
+      "definition": "A transformation that adjusts numeric feature ranges, for example by centering and dividing by a training-set standard deviation. Because distances are scale-sensitive, scaling can change which observations count as neighbors and must be fitted without using held-out data."
+    },
+    {
+      "term": "Decision boundary",
+      "definition": "The division in feature space between regions assigned different predicted labels. In kNN, changing $k$, the data distribution, or the distance rule can alter the boundary; larger neighborhoods often produce smoother boundaries."
+    },
+    {
+      "term": "Validation data",
+      "definition": "Observations kept apart from model fitting and used to compare choices such as neighborhood size or preprocessing. A sound split reflects the intended deployment setting and prevents related records or future information from leaking into evaluation."
+    },
+    {
+      "term": "Multi-label classification",
+      "definition": "A prediction task in which one observation may receive several labels at once, rather than exactly one mutually exclusive class. A method must use an appropriate per-label decision rule instead of assuming a single majority-vote winner."
+    },
+    {
+      "term": "Average nearest neighbor analysis",
+      "definition": "A spatial point-pattern approach that studies distances among points and may compare observed spacing with a reference expectation. It shares the idea of proximity with kNN, but addresses spatial arrangement rather than predicting labels from labeled examples."
+    },
+    {
+      "term": "SHA-256",
+      "definition": "A cryptographic hash function that maps file contents to a fixed-length digest. Duplicate Report uses the digest, together with file size, to group files that appear byte-for-byte identical; a hash is a compact fingerprint, not a semantic description."
+    },
+    {
+      "term": "Potential redundant bytes",
+      "definition": "For a reported duplicate group, the size of one file multiplied by the number of extra copies. It estimates bytes represented by additional identical paths, but does not guarantee that deleting those paths would reclaim that amount of storage."
+    }
+  ]
+}
