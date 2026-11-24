@@ -1216,3 +1216,38 @@ A prediction task in which one observation may receive several labels at once, r
 ### Average nearest neighbor analysis
 
 A spatial point-pattern approach that studies distances among points and may compare observed spacing with a reference expectation. It shares the idea of proximity with kNN, but addresses spatial arrangement rather than predicting labels from labeled examples.
+
+
+<!-- publication:2026-11-24 -->
+
+## 2026-11-24
+
+Source note: [2026-11-24](articles/2026-11-24-small-p-value-not-whole-result.md).
+
+### Null hypothesis
+
+A statistical statement used as a reference model for a test. For a two-sample mean comparison, the null commonly states that the population means are equal. A test evaluates how compatible observed data are with this model and its assumptions; it does not establish that the null is true or false by itself.
+
+### Welch's t-test
+
+A two-sample t-test for comparing independent-group means that does not assume equal population variances. It estimates the standard error from each group's variance and sample size, then uses an approximate degrees-of-freedom calculation to assess the statistic.
+
+### Confidence interval
+
+An interval procedure that, under its model and assumptions, has a specified long-run coverage rate. A 95% confidence interval is not a probability statement that a particular fixed parameter has a 95% chance of lying in the calculated interval.
+
+### Cohen's d
+
+A standardized mean difference: a raw difference divided by a standard-deviation scale. Several variants exist, so reports should specify the denominator used. The result can aid comparisons across measurement scales but does not, by itself, indicate practical importance.
+
+### Mann-Whitney U test
+
+A rank-based test comparing the relative ordering of observations from two independent groups. Its interpretation is not generally identical to a test of equal means or medians. Distribution shape, ties, independence, and the research question affect what conclusions are justified.
+
+### Effect size
+
+A measure of the magnitude of a difference or relationship. It may be expressed in original units, such as minutes, or in standardized units, such as Cohen’s d. Effect size complements uncertainty estimates and must be interpreted in the application’s context.
+
+### Practical significance
+
+The importance of an effect for a real decision, such as whether a time saving justifies implementation cost. It depends on domain thresholds, consequences, and constraints. A statistically significant finding can be practically trivial, while an uncertain estimate may still include important effects.
