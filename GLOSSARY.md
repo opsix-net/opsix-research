@@ -1251,3 +1251,42 @@ A measure of the magnitude of a difference or relationship. It may be expressed 
 ### Practical significance
 
 The importance of an effect for a real decision, such as whether a time saving justifies implementation cost. It depends on domain thresholds, consequences, and constraints. A statistically significant finding can be practically trivial, while an uncertain estimate may still include important effects.
+
+
+<!-- publication:2026-11-25 -->
+
+## 2026-11-25
+
+Source note: [2026-11-25](articles/2026-11-25-when-volatility-forecast-is-not-tail-forecast.md).
+
+### Value at Risk (VaR)
+
+A quantile of a specified loss or return distribution over a stated horizon and confidence level. VaR is a threshold, not a complete description of tail severity beyond that threshold.
+
+### GARCH
+
+A generalized autoregressive conditional heteroskedasticity model, which represents conditional variance as evolving over time in response to past information, including past shocks. Its volatility dynamics can make multi-period return distributions more complicated than a fixed-variance normal model.
+
+### Exceedance
+
+An observation that crosses a forecast threshold in the tail being monitored. For a lower-tail return forecast, it is commonly recorded when the realized return falls below the forecast quantile.
+
+### Unconditional coverage
+
+The property that the long-run frequency of exceedances agrees with the nominal tail probability. It concerns the exception count or rate, not the order in which exceptions occur.
+
+### Independence test
+
+A test of whether exceedance indicators behave independently over time, rather than clustering or exhibiting serial dependence. It complements a frequency-based coverage test.
+
+### Conditional coverage
+
+A joint evaluation of whether exceedances occur at the expected rate and whether their sequence is independent. A failure can arise from either component or both.
+
+### Likelihood-ratio statistic
+
+A statistic comparing the maximized likelihood under a restricted null model with the likelihood under a less restricted alternative. The negative twice-log form converts likelihood ratios into a scale commonly assessed with an asymptotic chi-squared reference distribution.
+
+### Conditional covariance matrix
+
+A model-based estimate of asset return variances and covariances at a given time, conditional on information available to the model. It is not directly observable as a unique model-free quantity.

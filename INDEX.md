@@ -32,3 +32,4 @@
 | 2026-11-20 | [From Historical Data to Reliable Automation: The Unseen Work of Backtesting](articles/2026-11-20-reliable-automation-backtesting.md) | scientific computing and engineering | <!-- publication:2026-11-20 -->
 | 2026-11-23 | [Neighbors, Noise, and the Shape of a Decision](articles/2026-11-23-neighbors-noise-and-the-shape-of-a-decision.md) | asset pipelines and storage engineering | <!-- publication:2026-11-23 -->
 | 2026-11-24 | [A Small P-Value Is Not the Whole Result](articles/2026-11-24-small-p-value-not-whole-result.md) | asset pipelines and storage engineering | <!-- publication:2026-11-24 -->
+| 2026-11-25 | [When a Volatility Forecast Is Not a Tail Forecast](articles/2026-11-25-when-volatility-forecast-is-not-tail-forecast.md) | scientific computing and engineering | <!-- publication:2026-11-25 -->
