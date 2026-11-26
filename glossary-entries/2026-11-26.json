@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-26",
+  "article": "articles/2026-11-26-market-data-analysis-reproducible-workflows.md",
+  "terms": [
+    {
+      "term": "Min-Max scaling",
+      "definition": "A linear transformation that maps values using the observed minimum and maximum, commonly to the interval [0,1]. It requires a nonzero range, and extreme values can compress the relative spread of the remaining observations."
+    },
+    {
+      "term": "Z-score standardization",
+      "definition": "A transformation that subtracts a mean and divides by a standard deviation. The result is expressed in standard-deviation units relative to the data used to estimate those quantities; it is undefined when the standard deviation is zero."
+    },
+    {
+      "term": "Data leakage",
+      "definition": "Information from outside the permitted training period influencing model fitting or feature preparation. In time-series evaluation, fitting a scaler or selecting parameters using future test observations can make measured performance misleading."
+    },
+    {
+      "term": "Simple moving average",
+      "definition": "The arithmetic mean of a fixed number of recent observations. Its window counts observations, which may not correspond to equal calendar durations when the series has gaps or irregular timestamps."
+    },
+    {
+      "term": "ARIMA",
+      "definition": "A family of time-series models specified by autoregressive order, differencing order, and moving-average order. A fitted model produces forecasts conditional on its specification, data, and assumptions, rather than guaranteed future values."
+    },
+    {
+      "term": "Implied volatility",
+      "definition": "A volatility value inferred by finding the input to an option-pricing model that matches an observed option price. It depends on model and market inputs, and is not identical to subsequently realized volatility."
+    },
+    {
+      "term": "Backtesting",
+      "definition": "A simulation that applies explicit strategy rules to historical observations. Its conclusions depend on data quality, execution timing, costs, and other assumptions; historical simulated performance does not guarantee future results."
+    },
+    {
+      "term": "Look-ahead bias",
+      "definition": "An evaluation error caused by allowing a strategy or model to use information that would not have been available at the decision time. It can arise from timing mistakes, preprocessing, or feature construction."
+    },
+    {
+      "term": "Topological order",
+      "definition": "An ordering of a directed acyclic graph's nodes in which every prerequisite appears before the node that depends on it. A graph containing a directed cycle has no complete topological order."
+    },
+    {
+      "term": "Dependency graph",
+      "definition": "A directed representation of tasks and prerequisite relationships. It lets workflow systems determine which tasks can run and in what order, but does not itself verify that the relationships are correct or that tasks succeed."
+    }
+  ]
+}

@@ -1290,3 +1290,26 @@ A statistic comparing the maximized likelihood under a restricted null model wit
 ### Conditional covariance matrix
 
 A model-based estimate of asset return variances and covariances at a given time, conditional on information available to the model. It is not directly observable as a unique model-free quantity.
+
+
+<!-- publication:2026-11-26 -->
+
+## 2026-11-26
+
+Source note: [2026-11-26](articles/2026-11-26-market-data-analysis-reproducible-workflows.md).
+
+### Min-Max scaling
+
+A linear transformation that maps values using the observed minimum and maximum, commonly to the interval [0,1]. It requires a nonzero range, and extreme values can compress the relative spread of the remaining observations.
+
+### Z-score standardization
+
+A transformation that subtracts a mean and divides by a standard deviation. The result is expressed in standard-deviation units relative to the data used to estimate those quantities; it is undefined when the standard deviation is zero.
+
+### Simple moving average
+
+The arithmetic mean of a fixed number of recent observations. Its window counts observations, which may not correspond to equal calendar durations when the series has gaps or irregular timestamps.
+
+### Implied volatility
+
+A volatility value inferred by finding the input to an option-pricing model that matches an observed option price. It depends on model and market inputs, and is not identical to subsequently realized volatility.
